@@ -5,11 +5,11 @@ VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5D2A0D05-2012-4F27-A54B-DCD4D7111EEF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDo.API", "ToDo.API\ToDo.API.csproj", "{CB4263A8-B1E8-42B1-A0B3-5A790E805FAB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToDo.API", "ToDo.API\ToDo.API.csproj", "{CB4263A8-B1E8-42B1-A0B3-5A790E805FAB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDo.Core", "ToDo.Core\ToDo.Core.csproj", "{2CBDC771-5F1C-49C0-92DC-F754C3EC3BC9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToDo.Core", "ToDo.Core\ToDo.Core.csproj", "{2CBDC771-5F1C-49C0-92DC-F754C3EC3BC9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDo.Infrastructure", "ToDo.Infrastructure\ToDo.Infrastructure.csproj", "{3BA32568-1274-4BDE-BA70-CA2A472F0789}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToDo.Infrastructure", "ToDo.Infrastructure\ToDo.Infrastructure.csproj", "{3BA32568-1274-4BDE-BA70-CA2A472F0789}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

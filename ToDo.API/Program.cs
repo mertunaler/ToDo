@@ -9,12 +9,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Logging.AddConsole();
-
-builder.Host.ConfigureAppConfiguration(((_, configurationBuilder) =>
-{
-    configurationBuilder.Add(new SecretManagerConfigSource("apiSecrets"));
-}));
+builder.Configuration.AddSecretsToConfigs("apiSecrets");
 
 var app = builder.Build();
 

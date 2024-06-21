@@ -15,8 +15,7 @@ namespace ToDo.Infrastructure.Configurations
         }
         public override void Load()
         {
-            //string secretData = GetSecrets();
-            string secretData = "{\"ApiKey\":\"hello\"}";
+            string secretData = GetSecrets();
             if (!string.IsNullOrEmpty(secretData))
             {
                 Data = JsonSerializer.Deserialize<Dictionary<string, string>>(secretData);
